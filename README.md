@@ -1,37 +1,23 @@
-# Maya Prompt SaaS
+# Maya Prompt Studio Verified
 
-正式 SaaS 版 AI Prompt 管理平台，适合家居产品、AI 场景图、电商广告、品牌摄影 Prompt 的长期沉淀和团队管理。
-
-## 功能
-
-- 现代 SaaS 首页
-- 用户登录 / 注册
-- Supabase 云数据库
-- Prompt 全文搜索
-- 文件夹 / 分类 / 标签
-- 收藏、热度、版本历史
-- 图片链接关联
-- CSV / JSON 批量导入
-- 管理后台
-- AI 优化 / 翻译 / 改写入口
-- 一键打开 ChatGPT、Claude、Gemini、Midjourney、Flux、可灵、即梦
-- Vercel 一键部署
-
-## 本地运行
-
-```bash
-npm install
-npm run dev
-```
+已通过本地 `npm install` 和 `npm run build` 验证的正式可部署版本。
 
 ## 部署
 
-请看：
+1. 解压 zip
+2. 上传根目录所有文件到 GitHub
+3. Vercel Import 仓库
+4. 点击 Deploy
 
-`VERCEL_DEPLOY.md`
+## 结构要求
 
-## Supabase
+GitHub 根目录必须直接看到：
 
-请在 Supabase SQL Editor 执行：
+- package.json
+- app
+- components
+- lib
+- dashboard
+- supabase
 
-`supabase/schema.sql`
+不要多套一层文件夹。
