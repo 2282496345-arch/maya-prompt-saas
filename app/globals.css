@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(255,255,255,.95), transparent 34%),
+    linear-gradient(135deg, #F7F1E8 0%, #EFE4D5 100%);
+  color: #111827;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4c4b2;
+  border-radius: 999px;
+}
+
+.prose-prompt {
+  white-space: pre-wrap;
+  line-height: 1.75;
+}
